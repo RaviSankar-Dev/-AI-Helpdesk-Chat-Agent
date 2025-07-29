@@ -1,9 +1,9 @@
 # AI Helpdesk Chat Agent
-A full-stack AI-powered chat agent built with a React frontend and a Python Flask backend, integrated with the OpenAI GPT API to provide intelligent,
+A full-stack AI-powered chat agent built with a React frontend and a Python Flask backend, integrated with the Groq LLM  API to provide intelligent,
 conversational responses. This project demonstrates how to build an end-to-end AI chatbot application suitable for helpdesk or customer support scenarios.
 ## Project Overview
 This AI Helpdesk Chat Agent enables users to interact with an AI assistant that responds naturally to their queries. 
-The frontend provides a clean, animated chat interface, while the backend serves API requests to OpenAI’s GPT model for generating responses. It includes features such as:
+The frontend provides a clean, animated chat interface, while the backend serves API requests to Groq LLM ’s GPT model for generating responses. It includes features such as:
 - Real-time chat with user and AI messages displayed distinctly
 - Responsive, modern UI with animations
 - Loading indicator while AI generates responses
@@ -12,7 +12,7 @@ The frontend provides a clean, animated chat interface, while the backend serves
 - Easy to extend with additional features or hosting on cloud platform
 ## Features
 - User friendly chat interface with styling and animations
-- AI-powered responses using OpenAI GPT-3.5-turbo model
+- AI-powered responses using Groq LLM model
 - Backend API built with Flask, handling AI requests securely
 - Cross-Origin Resource Sharing (CORS) enabled for frontend/backend interactions
 - Loading indicator to show typing status
@@ -21,7 +21,7 @@ The frontend provides a clean, animated chat interface, while the backend serves
 ### Prerequisites
 - Node.js and npm installed on your machine
 - Python 3.7+ installed
-- OpenAI API key (sign up at https://platform.openai.com)
+- Groq LLM  API key (sign up at https://platform.groq llm .com)
 ### Frontend Setup (React)
 1. Navigate to the `frontend` directory:
     ```
@@ -55,9 +55,9 @@ The frontend provides a clean, animated chat interface, while the backend serves
     ```
     pip install -r requirements.txt
     ```
-4. Set your OpenAI API key in `app.py`:
+4. Set your Groq LLM  API key in `app.py`:
     ```
-    openai.api_key = "YOUR_OPENAI_API_KEY"
+    groq llm .api_key = "YOUR_Groq LLM _API_KEY"
     ```
 5. Run the Flask server:
     ```
@@ -68,7 +68,30 @@ The frontend provides a clean, animated chat interface, while the backend serves
 - Open the frontend URL http://localhost:3000 in your browser
 - Type your query or message into the input box
 - Press **Send** or hit Enter
-- The AI agent will reply with a generated response from OpenAI
+- The AI agent will reply with a generated response from Groq LLM 
 - Enjoy a seamless conversational experience!
 ## Project Structure
+
+## Technologies Used
+
+- **Frontend:** React, JavaScript, CSS (with animations)
+- **Backend:** Python, Flask, Flask-CORS
+- **AI Service:** Groq LLM  API
+- **HTTP Client:** Axios (frontend)
+- **Package Managers:** npm, pip
+- **Development Tools:** VS Code, Postman (optional)
+
+## Screenshots
+![Chat interface screenshot](images/chat-interface.png)  
+*Example of the AI Helpdesk Chat Agent UI showcasing user and agent messages*
+
+## Contribution and License
+
+Feel free to contribute by submitting issues or pull requests.
+
+This project is open-source and available under the [MIT License](LICENSE).
+ 
+
+
+
 
