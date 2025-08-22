@@ -82,7 +82,7 @@ The frontend provides a clean, animated chat interface, while the backend serves
 - **Development Tools:** VS Code, Postman (optional)
 
 ## Screenshots
-!  
+![] 
 *Example of the AI Helpdesk Chat Agent UI showcasing user and agent messages*
 
 ## Contribution and License
